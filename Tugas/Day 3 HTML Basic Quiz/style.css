@@ -1,0 +1,96 @@
+body {
+    background-color: #F8F8F0;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0000FF;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+p span {
+    color: red;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+h6, h5 {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+h6 a, h5 a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+h6 a:hover, h5 a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 20px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul li img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+}
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+}
+
+td {
+    padding: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
