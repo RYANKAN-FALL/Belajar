@@ -1,20 +1,22 @@
-//biodata
+// Biodata
 const name = 'Prayoga';
 const bornYear = 2005;
-let hobby = 'Membaca';
-let address = 'Karimun';
+let hobby1 = 'Membaca';
 let hobby2 = 'Menonton';
+let addressCity = 'Karimun';
+let addressProvince = 'Kepulauan Riau';
 
-//year
+// Calculate age
 const currentYear = 2024;
 const age = currentYear - bornYear;
 
-//alamat
-let address1 = 'Kepulauan Riau';
+// Combine hobbies
+let combinedHobby = `${hobby1} dan ${hobby2}`;
 
-//fucntion
-let gabunganHobby = `${hobby} dan ${hobby2}`;
+//address
+const address = `${addressCity}, ${addressProvince}`
 
-const output = `Halo perkenalkan nama saya ${name}. Umur saya ${age} tahun. Hobi saya ${gabunganHobby}. Saya tinggal di ${address}, ${address1}.`;
+// Output message
+const output = `Halo, perkenalkan nama saya ${name}. Umur saya ${age} tahun. Hobi saya ${combinedHobby}. Saya tinggal di ${address}.`;
 
 console.log(output);
