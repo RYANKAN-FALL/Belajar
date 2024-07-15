@@ -16,7 +16,7 @@ let combinedHobby = `${hobby1} dan ${hobby2}`;
 //address
 const address = `${addressCity}, ${addressProvince}`
 
-// Output message
+// Output
 const output = `Halo, perkenalkan nama saya ${name}. Umur saya ${age} tahun. Hobi saya ${combinedHobby}. Saya tinggal di ${address}.`;
 
 console.log(output);
