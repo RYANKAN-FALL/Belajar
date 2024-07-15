@@ -1,5 +1,5 @@
 // Biodata
-const name = 'Prayoga';
+const name = 'Yoga';
 const fullName = 'Prayoga Gilang Pratama';
 const bornYear = 2005;
 let hobby1 = 'Membaca';
