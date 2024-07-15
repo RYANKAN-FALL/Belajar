@@ -2,8 +2,8 @@
 const name = 'Yoga';
 const fullName = 'Prayoga Gilang Pratama';
 const bornYear = 2005;
-let hobby1 = 'Membaca';
-let hobby2 = 'Menonton Film';
+let hobbySatu = 'Membaca';
+let hobbyDua = 'Menonton Film';
 let addressCity = 'Karimun';
 let addressProvince = 'Kepulauan Riau';
 
@@ -12,7 +12,7 @@ const currentYear = 2024;
 const age = currentYear - bornYear;
 
 // Hobi
-let combinedHobby = `${hobby1} dan ${hobby2}`;
+let combinedHobby = `${hobbySatu} dan ${hobbyDua}`;
 
 // Alamat
 const address = `${addressCity}, ${addressProvince}`
